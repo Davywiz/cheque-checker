@@ -34622,7 +34622,7 @@ s=1
 break}l=p.e.c
 if(m<l){p.qr(a,"Sorry Cheque Amount cannot be greater than Amount in Customer's Account")
 s=1
-break}if(m===l){p.qr(a,"Cheque amount equal to amount in account,a minimum of 1000 must be in account")
+break}if(m-l<1000){p.qr(a,"Cheque amount equal to amount in account,a minimum of 1000 must be in account")
 s=1
 break}p.YG(a)
 case 1:return P.a6(q,r)}})
